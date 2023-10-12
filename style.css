@@ -1,0 +1,198 @@
+html {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Young Serif', serif;
+}
+
+body {
+    margin: 0;
+    background-color: rgb(95, 95, 95);
+}
+
+
+.grandcontainer {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.container {
+    display: flex;
+    margin: 8px;
+}
+
+.container a {
+    text-decoration: none;
+    color: white;
+    transition: 0.3s ease-in-out;
+    padding: 0 8px;
+}
+
+.container a:hover {
+    color: darkseagreen;
+}
+
+.headerblack, .headerdarkgray, .headergray {
+    color: white;
+    text-align: left;
+    border: 1px solid black;
+}
+
+.headerblack {
+    background-color: black;
+    padding: 0 8px;
+}
+
+.headerdarkgray {
+    background-color: rgb(49, 49, 49);
+    padding: 0 1rem;
+    font-size: 16px;
+}
+
+.headerdarkgray h1 {
+    margin: 12px;
+}
+
+.headergray {
+    background-color: rgb(77, 77, 77);
+    padding: 0 2rem;
+    font-size: 12px;
+}
+
+.headergray h1 {
+    margin: 8px;
+}
+
+p.text {
+    margin: 0;
+    padding-left: 92rem;
+    padding-right: 8px;
+}
+
+.grandcontainer2 {
+    background-image: url(blood-moon-aattrox-splash-art.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top; /* Alinea la imagen en la parte superior */
+    height: 700px; /* Ajusta la altura de la sección del encabezado */
+    color: white; /* Color del texto */
+    text-align: center;
+    padding: 86px;
+}
+
+.loltitle {
+    padding-top: 22.5rem;
+    font-family: 'AR One Sans', sans-serif;
+    font-size: 16px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+}
+
+.champ-name {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Young Serif', serif;
+    font-size: 42px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+}
+
+.champ-name p {
+    margin: 10px;
+}
+
+.oficial-link {
+    padding-top: 20px;
+    display: flex;
+    margin: 8px;
+    align-items: center;
+}
+
+div.oficial-link {
+    padding-left: 46rem;
+}
+
+.oficial-link a {
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.oficial-link a:hover {
+    color: aquamarine;
+}
+
+.champ-info {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+}
+
+.champ-info p {
+    padding: 12px 36px;
+    margin: 0;
+}
+
+span {
+    color: crimson;
+}
+
+span.gold {
+    color: goldenrod;
+}
+
+span.purple {
+    color: blueviolet;
+}
+
+.chart-title {
+    text-align: center;
+    width: 500px;
+    background-color: rgb(136, 136, 136);
+    margin-top: 1rem;
+    margin-bottom: 5px;
+    box-shadow: 0 2px 4px black;
+}
+
+.chart-title h3 {
+    margin: 10px;
+}
+
+.chart {
+    width: 500px;
+    margin: 20px auto;
+    
+}
+
+.bio {
+    background-color: rgb(136, 136, 136);
+    padding: 4px 16px;
+    box-shadow: 0 4px 8px black;
+}
+
+footer {
+    background-color: rgb(41, 41, 41);
+    color: #E5E5E5;
+    text-align: left;
+    padding: 1.5rem 1rem;
+}
+
+footer section {
+    float: right;
+    
+}
+
+footer a {
+    transition: color 0.3s ease-in-out;
+    color: #F6F5F5;
+    text-decoration: none;
+}
+
+footer p {
+    margin: 0 auto;
+}
+
+footer a:hover {
+    color: aquamarine;
+}
